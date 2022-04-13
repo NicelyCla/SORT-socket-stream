@@ -1,19 +1,15 @@
 # SORT-socket-stream
-***
+
 The assignment refers to track A).
-The HUB process receives a chosen number of temperatures from J sensors. For each sensor temperature, a child is created that takes care of the transmission to the hub. The hub waits for J connected processes and then the temperatures are sent to the server which takes care of forwarding them to the actuators already listening. They calculate the average and the user is asked to unsubscribe.
+The HUB process receives a chosen number of temperatures from J sensors. For each sensor temperature, a child is created that takes care of the transmission to the hub. The hub waits for J connected processes and then the temperatures are sent to the server which takes care of forwarding them to the actuators already listening. They calculate the average and the user is asked to unsubscribe.<br /><br />
 
-## Summary
-1. [Launch of the application] (# Launch)
-### Application launch
-***
 The executables are launched first:
-$ ./hub "J" (default J = 2)
-$ ./server
-subsequently the actuators are registered:
-$ ./actuators "name" "(i / d)"
+$ ./hub "J" (default J = 2)<br />
+$ ./server<br />
+subsequently the actuators are registered:<br />
+$ ./actuators "name" "(i / d)"<br /><br />
 
-Tgoal and the list of sensor names to be entered will be requested iteratively. e.g .:
+Tgoal and the list of sensor names to be entered will be requested iteratively. e.g .:<br />
 ------------------------------------
 $ ./actuators a1 i
 Tgoal = 23
