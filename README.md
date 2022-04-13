@@ -4,7 +4,6 @@ The assignment refers to track A).
 The HUB process receives a chosen number of temperatures from J sensors. For each sensor temperature, a child is created that takes care of the transmission to the hub. The hub waits for J connected processes and then the temperatures are sent to the server which takes care of forwarding them to the actuators already listening. They calculate the average and the user is asked to unsubscribe.
 
 ## Application launch
-***
 The executables are launched first:<br />
 $ ./hub "J" (default J = 2)<br />
 $ ./server<br />
