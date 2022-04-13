@@ -27,6 +27,7 @@ Tgoal = 18
 Enter 0 to stop ...
 Sensor name to subscribe: t1
 Sensor name to subscribe: 0
+
 ------------------------------------
 The actuators will subscribe to the server and wait for the temperatures to be subscribed.
 Successively it is required to run J processes (J terminals) sensors "name" "n° measures". e.g.:
