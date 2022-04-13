@@ -14,6 +14,7 @@ subsequently the actuators are registered:
 $ ./actuators "name" "(i / d)"
 
 Tgoal and the list of sensor names to be entered will be requested iteratively. e.g .:
+
 ------------------------------------
 $ ./actuators a1 i
 Tgoal = 23
@@ -31,10 +32,11 @@ Sensor name to subscribe: 0
 ------------------------------------
 The actuators will subscribe to the server and wait for the temperatures to be subscribed.
 Successively it is required to run J processes (J terminals) sensors "name" "n° measures". e.g.:
-Successively it is required to run J processes (J terminals) sensors "name" "n ° measures". e.g .:
+
 ------------------------------------
 $ ./sensors t1 3
 $ ./sensors t2 4
+
 ------------------------------------
 Each process will send temperatures to the hub as required by the assignment. The hub will take care of the transmission to the server and the server will only forward the requested measures to the enrollment actuators.
 The actuators will calculate the averages and decide accordingly whether to turn the heaters on or off.
@@ -46,5 +48,6 @@ Enter 0 to stop ...
 Actuator name to unsubscribe: a1
 Actuator name to unsubscribe: a2
 Actuator name to unsubscribe: 0
+
 ------------------------------------
 The server will then send an empty string to a1 and a2 which will finish receiving and close.
