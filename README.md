@@ -1,7 +1,7 @@
 # SORT-socket-stream
 ***
-The assignment refers to track A).
-The HUB process receives a chosen number of temperatures from J sensors. For each sensor temperature, a child is created that takes care of the transmission to the hub. The hub waits for J connected processes and then the temperatures are sent to the server which takes care of forwarding them to the actuators already listening. They calculate the average and the user is asked to unsubscribe.
+The assignment refers to track A).<br />
+The HUB process receives a chosen number of temperatures from J sensors. For each sensor temperature, a child is created that takes care of the transmission to the hub. The hub waits for J connected processes and then the temperatures are sent to the server which takes care of forwarding them to the actuators already listening. Then, they calculate the average of the measures and the user is asked to unsubscribe the actuators.
 
 ## Application launch
 The executables that are launched first:<br />
