@@ -8,19 +8,19 @@ The executables that are launched first:<br />
 $ ./hub "J" (default J = 2)<br />
 $ ./server<br />
 subsequently the actuators are registered:<br />
-$ ./actuators "name" "(i / d)"<br /><br />
+$ ./attuatori "name" "(i/d)"<br /><br />
 
 Tgoal and the list of sensor names to be entered will be requested iteratively. e.g .:<br />
 
 ------------------------------------
-$ ./actuators a1 i<br />
+$ ./attuatori a1 i<br />
 Tgoal = 23<br />
 Enter 0 to stop ...<br />
 Sensor name to subscribe: t1<br />
 Sensor name to subscribe: t2<br />
 Sensor name to subscribe: 0<br /><br />
 
-$ ./ a2 actuators i<br />
+$ ./attuatori a2 i<br />
 Tgoal = 18<br />
 Enter 0 to stop ...<br />
 Sensor name to subscribe: t1<br />
@@ -41,7 +41,7 @@ The sensor processes end the execution by receiving the number of actuators that
 Finally, one or more actuators are launched in unsubscribe mode. e.g .:<br />
 
 ------------------------------------
-$ ./ a3 actuators d<br />
+$ ./attuatori a3 d<br />
 Enter 0 to stop ...<br />
 Actuator name to unsubscribe: a1<br />
 Actuator name to unsubscribe: a2<br />
