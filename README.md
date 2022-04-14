@@ -48,4 +48,4 @@ Actuator name to unsubscribe: a2<br />
 Actuator name to unsubscribe: 0<br /><br />
 
 ------------------------------------
-The server will then send an empty string to a1 and a2 which will finish receiving and close.
+Then, the server send an empty string to a1 and a2 which will finish receiving and close.
