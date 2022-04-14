@@ -10,7 +10,7 @@ $ ./server<br />
 subsequently the actuators are registered:<br />
 $ ./attuatori "name" "(i/d)"<br /><br />
 
-Tgoal and the list of sensor names to be entered will be requested iteratively. e.g .:<br />
+Tgoal and the list of sensor names will be requested iteratively. e.g .:<br />
 
 ------------------------------------
 $ ./attuatori a1 i<br />
