@@ -37,7 +37,7 @@ $ ./sensors t2 4<br /><br />
 ------------------------------------
 Each process will send temperatures to the hub as required by the assignment. The hub will take care of the transmission to the server and the server will only forward the requested measures to the enrollment actuators.<br />
 The actuators will calculate the averages and decide accordingly whether to turn the heaters on or off.<br />
-The sensor processes end the execution by receiving the number of actuators that have subscribed to the measure. For terminatte the actuators, it is required the subscription by the user.<br />
+The sensor processes end the execution by receiving the number of actuators that have subscribed to the measure. For terminate the actuators, it is required the subscription by the user.<br />
 So, one or more actuators are launched in unsubscribe mode. e.g .:<br />
 
 ------------------------------------
